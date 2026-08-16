@@ -25,6 +25,42 @@ main {
   width: 100%;
 }
 
+.site-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.site-nav {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-name {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #256b47;
+}
+
 .hero {
   width: min(1120px, calc(100% - 48px));
   min-height: 100vh;
@@ -89,5 +125,19 @@ main {
 
   .hero-description {
     font-size: 1rem;
+  }
+
+    .site-nav {
+    width: min(100% - 32px, 1120px);
+    min-height: 72px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    font-size: 0.875rem;
+  }
+
+  .site-name {
+    font-size: 0.9375rem;
   }
 }
