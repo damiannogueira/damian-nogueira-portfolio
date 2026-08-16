@@ -177,6 +177,34 @@ function App() {
             </p>
           </div>
         </section>
+
+        <section className="contact-section" id="contact">
+          <p className="section-label">Contact</p>
+
+          <div className="contact-content">
+            <h2>Let&apos;s talk about a junior frontend opportunity.</h2>
+
+            <p>
+              I&apos;m currently looking for a junior frontend role where I can
+              contribute to real products, continue learning, and grow as part
+              of a development team.
+            </p>
+
+            <div className="contact-links">
+              <a href="mailto:damian.nogueira@outlook.com">
+                Email me
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/damian-nogueira/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   )
