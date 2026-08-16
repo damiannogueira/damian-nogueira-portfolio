@@ -112,7 +112,7 @@ function Home() {
               <p className="project-description">
                 A full-stack food ordering application with authentication,
                 product browsing, cart and checkout, order management, and an
-                admin area built as an individual Programming III project.
+                admin area built as an academic project · UTN Programming degree.
               </p>
 
               <a className="project-link" href="/food-store">
