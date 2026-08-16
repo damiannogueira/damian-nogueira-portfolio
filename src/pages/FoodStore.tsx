@@ -49,6 +49,26 @@ function FoodStore() {
               <p>Completed — final academic grade: 10</p>
             </div>
           </div>
+
+          <div className="case-actions">
+            <a
+              className="case-secondary-link"
+              href="https://github.com/damiannogueira/foodstore-frontend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View frontend source ↗
+            </a>
+
+            <a
+              className="case-secondary-link"
+              href="https://github.com/damiannogueira/foodstore-backend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View backend source ↗
+            </a>
+          </div>
         </section>
 
         <section className="case-image-section">
