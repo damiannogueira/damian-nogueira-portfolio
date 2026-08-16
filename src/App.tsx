@@ -94,6 +94,60 @@ function App() {
               </a>
             </div>
           </article>
+
+          <article className="project-card">
+            <div className="project-image">
+              <img
+                src="/images/food-store/food-store-customer-catalogue.png"
+                alt="Food Store customer catalogue showing categories, search, sorting, and available products"
+              />
+            </div>
+
+            <div className="project-content">
+              <div>
+                <p className="project-number">03</p>
+                <h3>Food Store</h3>
+              </div>
+
+              <p className="project-description">
+                A full-stack food ordering application with authentication,
+                product browsing, cart and checkout, order management, and an
+                admin area built as an individual Programming III project.
+              </p>
+
+              <a className="project-link" href="/food-store">
+                View case study →
+              </a>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <div className="project-image">
+              <img
+                src="/images/lynkroam/lynkroam-decision-workspace.png"
+                alt="Lynkroam visual travel research workspace showing travel options organized by decision status"
+              />
+            </div>
+
+            <div className="project-content">
+              <div>
+                <p className="project-number">04</p>
+                <h3>Lynkroam</h3>
+                <p className="project-status">Currently building</p>
+              </div>
+
+              <p className="project-description">
+                A visual travel research workspace that turns scattered travel
+                links into organized, source-aware trip decisions. The current
+                build explores how travel options can move through decision
+                states while keeping their original context visible.
+              </p>
+
+              <a className="project-link" href="/lynkroam">
+                View case study →
+              </a>
+            </div>
+          </article>
         </section>
       </main>
     </>
