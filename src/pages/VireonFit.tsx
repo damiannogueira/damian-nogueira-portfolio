@@ -44,9 +44,18 @@ function VireonFit() {
 
             <div>
               <p className="case-meta-label">Status</p>
-              <p>Working web-based trial, still being refined</p>
+              <p>Live web app · Still being refined</p>
             </div>
           </div>
+
+          <a
+            className="case-primary-link"
+            href="https://vireonfitapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View live project ↗
+          </a>
         </section>
 
         <section className="case-image-section">
@@ -76,8 +85,8 @@ function VireonFit() {
 
             <p>
               I initially tried to solve both sides at the same time: the
-              training experience for individual users and the management
-              needs of trainers and gyms.
+              training experience for individual users and the management needs
+              of trainers and gyms.
             </p>
           </div>
         </section>
