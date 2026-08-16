@@ -495,6 +495,33 @@ main {
   letter-spacing: -0.03em;
 }
 
+.case-actions {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.case-actions .case-primary-link {
+  margin-top: 0;
+}
+
+.case-secondary-link {
+  display: inline-block;
+  padding: 14px 20px;
+  border: 1px solid #d7d5d0;
+  border-radius: 6px;
+  color: #1c1c1c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.case-secondary-link:hover {
+  border-color: #256b47;
+  color: #256b47;
+}
+
 @media (max-width: 640px) {
   .hero {
     width: min(100% - 32px, 1120px);
