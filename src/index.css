@@ -212,6 +212,40 @@ main {
   text-decoration: underline;
 }
 
+.about-section {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 120px 0;
+  border-top: 1px solid #d7d5d0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.about-heading h2 {
+  max-width: 520px;
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.about-content {
+  max-width: 560px;
+}
+
+.about-content p {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.about-content p + p {
+  margin-top: 24px;
+}
+
 @media (max-width: 640px) {
   .hero {
     width: min(100% - 32px, 1120px);
@@ -257,4 +291,15 @@ main {
   .project-card + .project-card {
   margin-top: 64px;
 }
+
+  .about-section {
+    width: min(100% - 32px, 1120px);
+    padding: 80px 0;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
 }

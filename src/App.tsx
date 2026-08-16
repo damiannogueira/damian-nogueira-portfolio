@@ -149,6 +149,34 @@ function App() {
             </div>
           </article>
         </section>
+
+        <section className="about-section" id="about">
+          <div className="about-heading">
+            <p className="section-label">About</p>
+            <h2>I care about building interfaces that make the next step clear.</h2>
+          </div>
+
+          <div className="about-content">
+            <p>
+              I&apos;m a frontend-focused developer with a programming background,
+              building projects where the interface has to help someone complete
+              a real task rather than simply look good.
+            </p>
+
+            <p>
+              My recent work includes Skillentis, VireonFit, Food Store, and
+              Lynkroam. Across them I&apos;ve worked with React and TypeScript,
+              product decisions, frontend flows, and integrations with backend
+              services.
+            </p>
+
+            <p>
+              I&apos;m continuing my programming studies while looking for a
+              junior frontend opportunity where I can contribute to real
+              products, keep learning, and grow as a developer.
+            </p>
+          </div>
+        </section>
       </main>
     </>
   )
