@@ -36,6 +36,65 @@ function App() {
             Contact me about a junior frontend opportunity
           </a>
         </section>
+
+        <section className="work-section" id="work">
+          <div className="section-heading">
+            <p className="section-label">Selected Work</p>
+            <h2>Projects built around real user needs.</h2>
+          </div>
+
+          <article className="project-card">
+            <div className="project-image">
+              <img
+                src="/images/skillentis/skillentis-evolution-dashboard.png"
+                alt="Skillentis developer evolution dashboard showing growth metrics and evolution charts"
+              />
+            </div>
+
+            <div className="project-content">
+              <div>
+                <p className="project-number">01</p>
+                <h3>Skillentis</h3>
+              </div>
+
+              <p className="project-description">
+                A developer evolution platform that turns public GitHub activity
+                into evidence of consistency, architecture growth,
+                collaboration, and professional practices.
+              </p>
+
+              <a className="project-link" href="/skillentis">
+                View case study →
+              </a>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <div className="project-image">
+              <img
+                src="/images/vireonfit/vireonfit-weekly-adjustment-dashboard.png"
+                alt="VireonFit training dashboard showing experience, streaks, and a weekly load adjustment"
+              />
+            </div>
+
+            <div className="project-content">
+              <div>
+                <p className="project-number">02</p>
+                <h3>VireonFit</h3>
+              </div>
+
+              <p className="project-description">
+                A personal AI-assisted training app that combines workout
+                tracking, progression, gamification, and weekly adjustments
+                based on training consistency.
+              </p>
+
+              <a className="project-link" href="/vireonfit">
+                View case study →
+              </a>
+            </div>
+          </article>
+        </section>
       </main>
     </>
   )

@@ -113,6 +113,94 @@ main {
   color: #f9f8f6;
 }
 
+.work-section {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.section-heading {
+  max-width: 720px;
+  margin-bottom: 48px;
+}
+
+.section-label {
+  margin: 0 0 16px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #256b47;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.project-card {
+  border-top: 1px solid #d7d5d0;
+  padding-top: 32px;
+}
+
+.project-card + .project-card {
+  margin-top: 96px;
+}
+
+.project-image {
+  overflow: hidden;
+  border: 1px solid #d7d5d0;
+  border-radius: 8px;
+  background-color: #1c1c1c;
+}
+
+.project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr auto;
+  gap: 40px;
+  align-items: start;
+  padding-top: 28px;
+}
+
+.project-number {
+  margin: 0 0 8px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  color: #256b47;
+}
+
+.project-content h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.project-description {
+  max-width: 520px;
+  margin: 0;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.project-link {
+  font-weight: 600;
+  color: #256b47;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .hero {
     width: min(100% - 32px, 1120px);
@@ -140,4 +228,22 @@ main {
   .site-name {
     font-size: 0.9375rem;
   }
+
+    .work-section {
+    width: min(100% - 32px, 1120px);
+    padding: 80px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 32px;
+  }
+
+  .project-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-card + .project-card {
+  margin-top: 64px;
+}
 }
