@@ -34,7 +34,7 @@ function Skillentis() {
 
             <div>
               <p className="case-meta-label">My role</p>
-              <p>Product direction, frontend decisions, testing and iteration</p>
+              <p>Product direction, full-stack implementation and iteration</p>
             </div>
 
             <div>
@@ -94,11 +94,29 @@ function Skillentis() {
             <h2>What I built and decided</h2>
 
             <p>
-              I built Skillentis independently, using Lovable and other AI tools
-              as development assistants. I remained responsible for the product
-              direction, feature priorities, user flows, testing, review,
-              corrections, and the final decisions about what stayed in the
-              product.
+              I built and launched Skillentis as a full-stack product, implementing
+              the React and TypeScript frontend and a Supabase-based architecture
+              for authentication, persistent application data, and server-side
+              processing. I also implemented the bilingual responsive interface,
+              SEO and structured data, sitemap configuration, and production
+              deployment.
+            </p>
+
+            <p>
+              For the primary GitHub analysis flow, the frontend starts an
+              authenticated Supabase Edge Function that accesses GitHub data,
+              transforms the activity into Skillentis metrics and evolution
+              signals, and persists the result. The frontend then follows the
+              analysis job and renders the completed developer evolution
+              dashboard.
+            </p>
+
+            <p>
+              Lovable and other AI tools supported planning, implementation,
+              debugging, and iteration. I directed the product, made the
+              technical and user-flow decisions, reviewed generated changes,
+              validated behavior, corrected the implementation, and decided what
+              stayed in the product.
             </p>
 
             <p>
@@ -247,7 +265,7 @@ function Skillentis() {
           </h2>
 
           <a className="hero-cta" href="/#contact">
-            Contact me about a junior frontend opportunity
+            Contact me about a junior development opportunity
           </a>
         </section>
       </main>

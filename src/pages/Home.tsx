@@ -17,23 +17,22 @@ function Home() {
 
       <main>
         <section className="hero">
-          <p className="hero-label">Frontend Developer</p>
+          <p className="hero-label">Frontend-Focused Full-Stack Developer</p>
 
           <h1>
-            I build clear, functional frontend interfaces around the real tasks
-            users need to complete.
+            I build clear, functional products around the real tasks users need
+            to complete.
           </h1>
 
           <p className="hero-description">
-            I build clear and functional frontend interfaces that help people
-            complete real tasks, as shown through projects like Skillentis,
-            VireonFit, and Food Store. I&apos;m currently looking for a junior
-            frontend role where I can contribute to real products, keep learning,
-            and grow as a developer.
+            I&apos;m a frontend-focused full-stack developer with practical backend,
+            database, and AI-assisted engineering experience. I work across
+            frontend interfaces, backend APIs, application data, and AI-assisted
+            workflows while continuing to build depth as a junior developer.
           </p>
 
           <a className="hero-cta" href="#contact">
-            Contact me about a junior frontend opportunity
+            Contact me about a junior development opportunity
           </a>
         </section>
 
@@ -153,27 +152,42 @@ function Home() {
         <section className="about-section" id="about">
           <div className="about-heading">
             <p className="section-label">About</p>
-            <h2>I care about building interfaces that make the next step clear.</h2>
+            <h2>I care about building products that make the next step clear.</h2>
           </div>
 
           <div className="about-content">
             <p>
-              I&apos;m a frontend-focused developer with a programming background,
-              building projects where the interface has to help someone complete
-              a real task rather than simply look good.
+              Frontend is my strongest and most recurring area. I focus on clear
+              interfaces and user flows while also building the backend services
+              and database-backed functionality those experiences depend on.
             </p>
 
             <p>
-              My recent work includes Skillentis, VireonFit, Food Store, and
-              Lynkroam. Across them I&apos;ve worked with React and TypeScript,
-              product decisions, frontend flows, and integrations with backend
-              services.
+              Across my projects, I work mainly with TypeScript and React on
+              frontend interfaces and product flows. Skillentis, VireonFit, and
+              Food Store also give me hands-on experience with backend APIs and
+              services, authentication, persistence, and database-backed
+              functionality, while AI-assisted engineering workflows support how
+              I plan, implement, review, and iterate.
             </p>
 
             <p>
-              I&apos;m continuing my programming studies while looking for a
-              junior frontend opportunity where I can contribute to real
-              products, keep learning, and grow as a developer.
+              I&apos;m continuing my programming studies and building depth across
+              these areas while looking for a junior frontend or full-stack
+              opportunity where I can contribute, keep learning, and grow.
+            </p>
+          </div>
+        </section>
+
+        <section className="contact-section" id="writing">
+          <p className="section-label">Writing</p>
+
+          <div className="contact-content">
+            <h2>Posts coming soon.</h2>
+
+            <p>
+              This space will contain short notes about frontend development,
+              AI-assisted engineering, and lessons from building projects.
             </p>
           </div>
         </section>
@@ -182,12 +196,12 @@ function Home() {
           <p className="section-label">Contact</p>
 
           <div className="contact-content">
-            <h2>Let&apos;s talk about a junior frontend opportunity.</h2>
+            <h2>Let&apos;s talk about a junior development opportunity.</h2>
 
             <p>
-              I&apos;m currently looking for a junior frontend role where I can
-              contribute to real products, continue learning, and grow as part
-              of a development team.
+              I&apos;m currently looking for a junior frontend or full-stack role
+              where I can contribute to real products, continue learning, and
+              grow as part of a development team.
             </p>
 
             <div className="contact-links">
@@ -198,9 +212,29 @@ function Home() {
               <a
                 href="https://www.linkedin.com/in/damian-nogueira/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 LinkedIn ↗
+              </a>
+
+              <a
+                href="https://github.com/damiannogueira"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub ↗
+              </a>
+
+              <a href="/Damian_Nogueira_CV_2026.pdf" download>
+                Download CV
+              </a>
+
+              <a
+                href="https://calendly.com/damian-nogueira/intro-junior-frontend-full-stack-conversation"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a conversation ↗
               </a>
             </div>
           </div>

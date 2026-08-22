@@ -23,9 +23,9 @@ function VireonFit() {
           </h1>
 
           <p className="case-intro">
-            VireonFit is a personal AI-assisted training app that combines
-            workout routines, progress tracking, gamification, and weekly
-            adjustments based on training consistency.
+            VireonFit is a full-stack fitness application with AI-generated
+            routines and automated progression logic. It combines workout
+            tracking, personalized training, and gamification in one experience.
           </p>
 
           <div className="case-meta">
@@ -37,8 +37,8 @@ function VireonFit() {
             <div>
               <p className="case-meta-label">My role</p>
               <p>
-                Product direction, frontend flows, Supabase integration, testing
-                and iteration
+                Product direction, full-stack implementation, training
+                progression logic and AI-generated routines
               </p>
             </div>
 
@@ -98,18 +98,30 @@ function VireonFit() {
             <h2>What I built and decided</h2>
 
             <p>
-              I built VireonFit independently using React, TypeScript, Vite,
-              Tailwind CSS, and Supabase. AI tools helped me with parts of the
-              implementation, while I remained responsible for the product
-              direction, feature decisions, scope, user flows, testing, and
-              iteration.
+              I built VireonFit independently as a full-stack application. I
+              implemented the React, TypeScript, Vite, and Tailwind CSS frontend,
+              along with Supabase authentication, PostgreSQL persistence, and
+              backend logic through Edge Functions and database-side functions
+              and triggers.
             </p>
 
             <p>
-              Managing Supabase gave me practical experience with application
-              data and authentication. It also showed me that adding technical
-              complexity can slow down product validation when the main user
-              problem is still being tested.
+              Inside the product, Gemini generates personalized workout routines
+              from user and training information through server-side
+              infrastructure. It also supports exercise-image generation. This
+              product AI is separate from the AI tools that assisted parts of my
+              development workflow; I remained responsible for product direction,
+              implementation review, debugging, validation, and iteration.
+            </p>
+
+            <p>
+              The Weekly Adjustment Engine uses persisted workout history to
+              calculate weekly completion and consistency, save an adjustment,
+              and feed the frontend progression logic that suggests weight or
+              repetition changes. High completion can increase progression,
+              moderate completion maintains it, and lower completion reduces the
+              suggestion. These are deterministic application rules, not AI or
+              machine learning.
             </p>
           </div>
         </section>
@@ -163,7 +175,7 @@ function VireonFit() {
             <p>
               VireonFit currently works as a web-based trial version and can be
               installed from compatible browsers. The product direction now
-              centers on AI-assisted routines, workout tracking, progression,
+              centers on AI-generated routines, workout tracking, progression,
               and gamification.
             </p>
 
@@ -237,7 +249,7 @@ function VireonFit() {
           </h2>
 
           <a className="hero-cta" href="/#contact">
-            Contact me about a junior frontend opportunity
+            Contact me about a junior development opportunity
           </a>
         </section>
       </main>

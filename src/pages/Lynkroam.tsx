@@ -30,8 +30,11 @@ function Lynkroam() {
 
           <div className="case-meta">
             <div>
-              <p className="case-meta-label">Project type</p>
-              <p>Frontend project currently in development</p>
+              <p className="case-meta-label">My role</p>
+              <p>
+                Frontend development, information architecture, and product
+                scoping
+              </p>
             </div>
 
             <div>
@@ -274,7 +277,7 @@ function Lynkroam() {
           </h2>
 
           <a className="hero-cta" href="/#contact">
-            Contact me about a junior frontend opportunity
+            Contact me about a junior development opportunity
           </a>
         </section>
       </main>

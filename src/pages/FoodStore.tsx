@@ -45,8 +45,8 @@ function FoodStore() {
             </div>
 
             <div>
-              <p className="case-meta-label">Result</p>
-              <p>Completed — final academic grade: 10</p>
+              <p className="case-meta-label">My role</p>
+              <p>Full-stack developer — individual academic project</p>
             </div>
           </div>
 
@@ -185,10 +185,10 @@ function FoodStore() {
             <h2>Frontend and backend integration</h2>
 
             <p>
-              The frontend was connected to a Java and Spring Boot REST API. The
-              backend used JPA and Hibernate for persistence, DTOs for data
-              transfer, validation, centralized error handling, and MySQL for
-              the main application data.
+              I connected the TypeScript and Vite frontend to the Java and Spring
+              Boot REST API I built. I used JPA and Hibernate for persistence,
+              DTOs for data transfer, validation, centralized error handling,
+              and MySQL for the main application data.
             </p>
 
             <p>
@@ -301,7 +301,7 @@ function FoodStore() {
           </h2>
 
           <a className="hero-cta" href="/#contact">
-            Contact me about a junior frontend opportunity
+            Contact me about a junior development opportunity
           </a>
         </section>
       </main>
