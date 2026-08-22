@@ -62,6 +62,9 @@ function VireonFit() {
           <img
             src="/images/vireonfit/vireonfit-weekly-adjustment-dashboard.png"
             alt="VireonFit dashboard showing experience, streaks, weekly activity, and a weekly training adjustment"
+            width="1895"
+            height="906"
+            loading="lazy"
           />
 
           <p className="case-caption">
@@ -158,6 +161,9 @@ function VireonFit() {
           <img
             src="/images/vireonfit/vireonfit-active-workout-flow.png"
             alt="VireonFit active workout screen showing exercises, set progress, movement instructions, and the Begin action"
+            width="1905"
+            height="926"
+            loading="lazy"
           />
 
           <p className="case-caption">

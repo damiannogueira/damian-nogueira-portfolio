@@ -73,6 +73,9 @@ function Lynkroam() {
           <img
             src="/images/lynkroam/lynkroam-decision-workspace.png"
             alt="Lynkroam visual travel research workspace showing research cards organized into Inbox, Considering, Shortlisted, Booked, and Rejected states"
+            width="1898"
+            height="912"
+            loading="lazy"
           />
 
           <p className="case-caption">

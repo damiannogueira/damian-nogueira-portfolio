@@ -57,6 +57,9 @@ function Skillentis() {
           <img
             src="/images/skillentis/skillentis-evolution-dashboard.png"
             alt="Current Skillentis developer evolution dashboard showing growth metrics, evolution graphs, and profile information"
+            width="1893"
+            height="902"
+            loading="lazy"
           />
 
           <p className="case-caption">
@@ -163,6 +166,9 @@ function Skillentis() {
               <img
                 src="/images/skillentis/skillentis-previous-scoring-version.png"
                 alt="Previous Skillentis version focused on an overall developer score and maturity pillars"
+                width="1347"
+                height="695"
+                loading="lazy"
               />
 
               <figcaption>
@@ -175,6 +181,9 @@ function Skillentis() {
               <img
                 src="/images/skillentis/skillentis-evolution-dashboard.png"
                 alt="Current Skillentis version focused on developer evolution and growth signals"
+                width="1893"
+                height="902"
+                loading="lazy"
               />
 
               <figcaption>

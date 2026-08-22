@@ -75,6 +75,9 @@ function FoodStore() {
           <img
             src="/images/food-store/food-store-customer-catalogue.png"
             alt="Food Store customer catalogue showing categories, search, sorting, products, prices, and cart navigation"
+            width="1352"
+            height="643"
+            loading="lazy"
           />
 
           <p className="case-caption">
@@ -130,6 +133,9 @@ function FoodStore() {
           <img
             src="/images/food-store/food-store-cart-checkout.png"
             alt="Food Store shopping cart showing selected products, totals, delivery information, payment method, notes, and order confirmation"
+            width="1347"
+            height="633"
+            loading="lazy"
           />
 
           <p className="case-caption">
@@ -164,6 +170,9 @@ function FoodStore() {
           <img
             src="/images/food-store/food-store-admin-order-management.png"
             alt="Food Store administrator order management screen showing customer details, products, current order status, and status update controls"
+            width="1342"
+            height="636"
+            loading="lazy"
           />
 
           <p className="case-caption">
@@ -204,6 +213,9 @@ function FoodStore() {
           <img
             src="/images/food-store/food-store-swagger-api-overview.png"
             alt="Swagger documentation for the Food Store REST API showing product, order, category, user, and authentication controllers"
+            width="1348"
+            height="630"
+            loading="lazy"
           />
 
           <p className="case-caption">

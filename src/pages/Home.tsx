@@ -47,6 +47,9 @@ function Home() {
               <img
                 src="/images/skillentis/skillentis-evolution-dashboard.png"
                 alt="Skillentis developer evolution dashboard showing growth metrics and evolution charts"
+                width="1893"
+                height="902"
+                loading="lazy"
               />
             </div>
 
@@ -73,6 +76,9 @@ function Home() {
               <img
                 src="/images/vireonfit/vireonfit-weekly-adjustment-dashboard.png"
                 alt="VireonFit training dashboard showing experience, streaks, and a weekly load adjustment"
+                width="1895"
+                height="906"
+                loading="lazy"
               />
             </div>
 
@@ -99,6 +105,9 @@ function Home() {
               <img
                 src="/images/food-store/food-store-customer-catalogue.png"
                 alt="Food Store customer catalogue showing categories, search, sorting, and available products"
+                width="1352"
+                height="643"
+                loading="lazy"
               />
             </div>
 
@@ -125,6 +134,9 @@ function Home() {
               <img
                 src="/images/lynkroam/lynkroam-decision-workspace.png"
                 alt="Lynkroam visual travel research workspace showing travel options organized by decision status"
+                width="1898"
+                height="912"
+                loading="lazy"
               />
             </div>
 
