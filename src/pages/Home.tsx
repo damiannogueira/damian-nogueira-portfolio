@@ -1,3 +1,5 @@
+import ContactForm from "../components/ContactForm"
+
 function Home() {
   return (
     <>
@@ -249,6 +251,8 @@ function Home() {
                 Book a conversation ↗
               </a>
             </div>
+
+            <ContactForm />
           </div>
         </section>
       </main>
