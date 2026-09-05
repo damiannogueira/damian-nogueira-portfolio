@@ -67,7 +67,11 @@ function Home() {
                 collaboration, and professional practices.
               </p>
 
-              <a className="project-link" href="/skillentis">
+              <a
+                className="project-link"
+                href="/skillentis"
+                aria-label="View Skillentis case study"
+              >
                 View case study →
               </a>
             </div>
@@ -96,7 +100,11 @@ function Home() {
                 based on training consistency.
               </p>
 
-              <a className="project-link" href="/vireonfit">
+              <a
+                className="project-link"
+                href="/vireonfit"
+                aria-label="View VireonFit case study"
+              >
                 View case study →
               </a>
             </div>
@@ -125,7 +133,11 @@ function Home() {
                 admin area built as an academic project · UTN Programming degree.
               </p>
 
-              <a className="project-link" href="/food-store">
+              <a
+                className="project-link"
+                href="/food-store"
+                aria-label="View Food Store case study"
+              >
                 View case study →
               </a>
             </div>
@@ -156,7 +168,11 @@ function Home() {
                 states while keeping their original context visible.
               </p>
 
-              <a className="project-link" href="/lynkroam">
+              <a
+                className="project-link"
+                href="/lynkroam"
+                aria-label="View Lynkroam case study"
+              >
                 View case study →
               </a>
             </div>
