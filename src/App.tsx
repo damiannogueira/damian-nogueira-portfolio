@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { Route, Routes, useLocation } from "react-router"
+import { Analytics } from "@vercel/analytics/react"
 import Home from "./pages/Home"
 import Skillentis from "./pages/Skillentis"
 import VireonFit from "./pages/VireonFit"
@@ -33,6 +34,7 @@ function App() {
         <Route path="/food-store" element={<FoodStore />} />
         <Route path="/lynkroam" element={<Lynkroam />} />
       </Routes>
+      <Analytics />
     </>
   )
 }
