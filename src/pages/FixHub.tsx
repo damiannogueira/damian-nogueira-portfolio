@@ -10,7 +10,7 @@ function FixHub() {
 
       <main className="case-study">
         <section className="case-hero">
-          <p className="case-label">04 / FixHub</p>
+          <p className="case-label">03 / FixHub</p>
           <h1>Connecting the full repair workflow in one system.</h1>
           <p className="case-intro">
             FixHub was developed collaboratively by a three-person team as our

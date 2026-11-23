@@ -15,7 +15,7 @@ function FoodStore() {
 
       <main className="case-study">
         <section className="case-hero">
-          <p className="case-label">03 / Food Store</p>
+          <p className="case-label">04 / Food Store</p>
 
           <h1>
             Building a complete customer and admin flow around a real backend.
