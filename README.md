@@ -21,6 +21,7 @@ The first public version is intentionally minimal and contains only my name. The
 - Skillentis
 - VireonFit
 - Food Store
+- FixHub — collaborative Final Integrative Project at UTN
 - Lynkroam — currently in development
 
 ## Local development

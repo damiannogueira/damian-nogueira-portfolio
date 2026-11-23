@@ -6,6 +6,7 @@ import Skillentis from "./pages/Skillentis"
 import VireonFit from "./pages/VireonFit"
 import FoodStore from "./pages/FoodStore"
 import Lynkroam from "./pages/Lynkroam"
+import FixHub from "./pages/FixHub"
 
 function ScrollToHash() {
   const { hash, pathname } = useLocation()
@@ -33,6 +34,7 @@ function App() {
         <Route path="/vireonfit" element={<VireonFit />} />
         <Route path="/food-store" element={<FoodStore />} />
         <Route path="/lynkroam" element={<Lynkroam />} />
+        <Route path="/fixhub" element={<FixHub />} />
       </Routes>
       <Analytics />
     </>

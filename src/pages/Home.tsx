@@ -146,6 +146,41 @@ function Home() {
           <article className="project-card">
             <div className="project-image">
               <img
+                src="/images/fixhub/fixhub-dashboard.png"
+                alt="FixHub management dashboard summarizing work orders and workshop activity"
+                width="1917"
+                height="911"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="project-content">
+              <div>
+                <p className="project-number">04</p>
+                <h3>FixHub</h3>
+                <p className="project-status">Team project · UTN</p>
+              </div>
+
+              <p className="project-description">
+                A full-stack workshop management application developed by a
+                three-person team as our Final Integrative Project at UTN,
+                covering clients, equipment, work orders, budgets, inventory,
+                and role-based access.
+              </p>
+
+              <a
+                className="project-link"
+                href="/fixhub"
+                aria-label="View FixHub case study"
+              >
+                View case study →
+              </a>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <div className="project-image">
+              <img
                 src="/images/lynkroam/lynkroam-decision-workspace.png"
                 alt="Lynkroam visual travel research workspace showing travel options organized by decision status"
                 width="1898"
@@ -156,7 +191,7 @@ function Home() {
 
             <div className="project-content">
               <div>
-                <p className="project-number">04</p>
+                <p className="project-number">05</p>
                 <h3>Lynkroam</h3>
                 <p className="project-status">Currently building</p>
               </div>
@@ -194,11 +229,11 @@ function Home() {
 
             <p>
               Across my projects, I work mainly with TypeScript and React on
-              frontend interfaces and product flows. Skillentis, VireonFit, and
-              Food Store also give me hands-on experience with backend APIs and
-              services, authentication, persistence, and database-backed
-              functionality, while AI-assisted engineering workflows support how
-              I plan, implement, review, and iterate.
+              frontend interfaces and product flows. Skillentis, VireonFit, Food
+              Store, and FixHub also give me hands-on experience with backend
+              APIs and services, authentication, persistence, and
+              database-backed functionality, while AI-assisted engineering
+              workflows support how I plan, implement, review, and iterate.
             </p>
 
             <p>

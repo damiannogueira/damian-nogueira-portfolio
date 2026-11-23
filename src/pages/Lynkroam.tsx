@@ -15,7 +15,7 @@ function Lynkroam() {
 
       <main className="case-study">
         <section className="case-hero">
-          <p className="case-label">04 / Lynkroam · Currently building</p>
+          <p className="case-label">05 / Lynkroam · Currently building</p>
 
           <h1>
             Turning scattered travel research into organized trip decisions.
